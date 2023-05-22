@@ -15,7 +15,11 @@ const NavbarMenu = () => (
                 </Link>
                 <Link href='/jokes/random' passHref legacyBehavior>
                     <Nav.Link>Jokes</Nav.Link>
+                </Link> 
+                <Link href='/books' passHref legacyBehavior>
+                    <Nav.Link>Books</Nav.Link>
                 </Link>
+           
            
                 <Link href='/about' passHref legacyBehavior>
                     <Nav.Link>About</Nav.Link>
